@@ -1,4 +1,4 @@
-startegyGuide = open("./2/input.txt").readlines()
+startegyGuide = open("./02/input.txt").readlines()
 
 score = 0
 

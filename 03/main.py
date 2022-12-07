@@ -1,7 +1,7 @@
 import string
 
 
-input_list = open("./3/input.txt").readlines()
+input_list = open("./03/input.txt").readlines()
 compartement_results = []
 
 for item in input_list:

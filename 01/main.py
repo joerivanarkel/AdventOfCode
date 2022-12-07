@@ -1,4 +1,4 @@
-caloriesList = open("./1/input.txt").readlines()
+caloriesList = open("./01/input.txt").readlines()
 results = []
 
 i = 0

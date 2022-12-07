@@ -1,18 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// Not a solution
 Console.WriteLine("Hello, World!");
 
 
 List<List<char>> crates = new();
 
-List<char> one = new() { 'G', 'T', 'R', 'W' };
-List<char> two = new() { 'G', 'C', 'H', 'P', 'M', 'S', 'V', 'W' };
-List<char> three = new() { 'C', 'L', 'T', 'S', 'G', 'M' };
-List<char> four = new() { 'J', 'H', 'D', 'M', 'W', 'R', 'F' };
-List<char> five = new() { 'P', 'Q', 'L', 'H', 'S', 'W', 'F', 'J' };
-List<char> six = new() { 'P', 'J', 'D', 'N', 'F', 'M', 'S' };
-List<char> seven = new() { 'Z', 'B', 'D', 'F', 'G', 'C', 'S', 'J' };
-List<char> eight = new() { 'R', 'T', 'B' };
-List<char> nine = new() { 'H', 'N', 'W', 'L', 'C' };
+List<char> one = new()      { 'G', 'T', 'R', 'W' };
+List<char> two = new()      { 'G', 'C', 'H', 'P', 'M', 'S', 'V', 'W' };
+List<char> three = new()    { 'C', 'L', 'T', 'S', 'G', 'M' };
+List<char> four = new()     { 'J', 'H', 'D', 'M', 'W', 'R', 'F' };
+List<char> five = new()     { 'P', 'Q', 'L', 'H', 'S', 'W', 'F', 'J' };
+List<char> six = new()      { 'P', 'J', 'D', 'N', 'F', 'M', 'S' };
+List<char> seven = new()    { 'Z', 'B', 'D', 'F', 'G', 'C', 'S', 'J' };
+List<char> eight = new()    { 'R', 'T', 'B' };
+List<char> nine = new()     { 'H', 'N', 'W', 'L', 'C' };
 
 
 var input = File.ReadAllLines("./input.txt");
